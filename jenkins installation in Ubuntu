@@ -62,7 +62,13 @@ How to remove git from Ubuntu ?
 sudo apt-get purge --auto-remove gi
 
 
-
+if we get any type of this error 
+------------------------------------
+The system has not been booted with systemd as init system (PID 1). Can't operate.
+Failed to connect to bus: Host is down
+Then the solution is Just type the command 
+--------------------------------------------
+ps -p 1 -o comm=
 
 
 
